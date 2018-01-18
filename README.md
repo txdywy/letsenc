@@ -19,3 +19,8 @@ location /.well-known/ {
         alias /home/ubuntu/flask/examples/minitwit/www/.well-known/;
     }
 ```
+
+# permission
+```
+sudo chown -R www-data:www-data  .well-known/
+```
