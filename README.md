@@ -24,3 +24,9 @@ location /.well-known/ {
 ```
 sudo chown -R www-data:www-data  .well-known/
 ```
+
+# apache
+```
+a2enmod ssl
+apachectl configtest
+```
